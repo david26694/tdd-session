@@ -5,6 +5,8 @@ def fizzbuzz(x):
         return "Fizz"
     if x % 5 == 0:
         return "Buzz"
+    if x % 15 == 0:
+        return "FizzBuzz"
 
 
     return x
