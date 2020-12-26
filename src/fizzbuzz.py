@@ -2,4 +2,4 @@
 
 def fizzbuzz(x):
 
-    return
+    return x
