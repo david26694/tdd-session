@@ -41,14 +41,6 @@ test/test_sample.py .                                                    [100%]
 ============================== 1 passed in 0.03s ===============================
 ```
 
-
-## In the session
-
-We'll to develop the fizzbuzz function in a _test driven development_ style. The fizzbuzz function does the following:
-
-> Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
-
-
 ## Why testing?
 
 From [stackoverflow](https://stackoverflow.com/questions/67299/is-unit-testing-worth-the-effort):
@@ -65,3 +57,9 @@ From [stackoverflow](https://stackoverflow.com/questions/67299/is-unit-testing-w
 * [sktools](https://github.com/david26694/sktools/blob/master/tests/test_sktools.py)
 * [sklego](https://github.com/koaning/scikit-lego/blob/master/tests/test_preprocessing/test_dictmapper.py)
 * [DBT airflow](https://github.com/gocardless/airflow-dbt/blob/master/tests/operators/test_dbt_operator.py)
+
+## In the session
+
+We'll to develop the fizzbuzz function in a _test driven development_ style. The fizzbuzz function does the following:
+
+> Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
