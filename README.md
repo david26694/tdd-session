@@ -53,11 +53,11 @@ We'll to develop the fizzbuzz function in a _test driven development_ style. The
 
 From [stackoverflow](https://stackoverflow.com/questions/67299/is-unit-testing-worth-the-effort):
 
-* > Unit Tests allows you to make big changes to code quickly. You know it works now because you've run the tests, when you make the changes you need to make, you need to get the tests working again.
-* > The tests and the code work together to achieve better code. Your code could be bad / buggy. Your TEST could be bad / buggy. Your are banking on the chances of both being bad / buggy being low. Often it's the test that needs fixing but that's still a good outcome.
-* > When faced with a large and daunting piece of work ahead writing the tests will get you moving quickly.
-* > Unit Tests help you really understand the design of the code you are working on. Instead of writing code to do something, you are starting by outlining all the conditions you are subjecting the code to and what outputs you'd expect from that.
-* > Unit Tests give you instant visual feedback, we all like the feeling of all those green lights when we've done. It's very satisfying. It's also much easier to pick up where you left off after an interruption because you can see where you got to - that next red light that needs fixing.
+* Unit Tests allows you to make big changes to code quickly. You know it works now because you've run the tests, when you make the changes you need to make, you need to get the tests working again.
+* The tests and the code work together to achieve better code. Your code could be bad / buggy. Your TEST could be bad / buggy. Your are banking on the chances of both being bad / buggy being low. Often it's the test that needs fixing but that's still a good outcome.
+* When faced with a large and daunting piece of work ahead writing the tests will get you moving quickly.
+* Unit Tests help you really understand the design of the code you are working on. Instead of writing code to do something, you are starting by outlining all the conditions you are subjecting the code to and what outputs you'd expect from that.
+* Unit Tests give you instant visual feedback, we all like the feeling of all those green lights when we've done. It's very satisfying. It's also much easier to pick up where you left off after an interruption because you can see where you got to - that next red light that needs fixing.
 
 ## Examples
 
