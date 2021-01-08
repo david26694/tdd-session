@@ -1,14 +1,14 @@
 
 ## Before the session
 
+* Clone this repo. `git clone git@github.com:david26694/tdd-session.git`
 * You need to have `pytest` (version `6.0.1` ideally) installed.
 * You need to be able to run the tests in this repo.
 
 
 ### Installation
 
-To install from conda:
-
+To install from conda (you don't really need conda, but I recommend it):
 
 ```bash
 conda create -y --name tdd-session python==3.7
@@ -21,6 +21,12 @@ Check pytest version:
 ```bash
 pytest --version
 ```
+
+If you don't have conda available, you can always run
+```bash
+pip install pytest
+```
+and have `pytest` installed globally.
 
 ### Run tests
 
