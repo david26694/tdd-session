@@ -47,6 +47,26 @@ test/test_sample.py .                                                    [100%]
 ============================== 1 passed in 0.03s ===============================
 ```
 
+## What is testing?
+
+3 important concepts:
+* Software testing: writing code that checks that your code works.
+* Unit testing vs system testing. Example: Airbnb room booking. Steps: Visitor searches for room in given dates, chooses room, request email is sent to host, host accepts, send confirmation email to visitor.
+    * System testing: simulate the whole process and check that it works.
+    * Unit testing: test individual components.
+        * When doing a search, only rooms available these dates appear.
+        * When choosing a room, an email is sent to the host.
+        * When host accepts a request, a confirmation email is sent.
+
+![Unit vs system testing](https://github.com/david26694/tdd-session/blob/main/testing.png?raw=true)
+
+* Test-driven development: write tests and after writing the tests, write your code.
+
+Different use-cases:
+* Big software systems - hard to keep track of all the codebase.
+* Libraries: you want the code you deliver to work.
+* Data science: mostly, data trasnformation steps. Data validation needs to be done often, but it is not technically unit testing.
+
 ## Why testing?
 
 From [stackoverflow](https://stackoverflow.com/questions/67299/is-unit-testing-worth-the-effort):
